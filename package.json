@@ -1,0 +1,28 @@
+{
+  "name": "ts-aurora-poc",
+  "version": "1.0.0",
+  "description": "testing data api local with mysql db",
+  "main": "dist/app.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node dist/app"
+  },
+  "author": "João Gomes",
+  "license": "ISC",
+  "keywords": [],
+  "devDependencies": {
+    "@types/express": "^4.16.1",
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.3"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.771.0",
+    "data-api-client": "^1.1.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.16.4",
+    "mysql": "^2.18.1",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "^0.2.28",
+    "typeorm-aurora-data-api-driver": "^1.4.0"
+  }
+}
